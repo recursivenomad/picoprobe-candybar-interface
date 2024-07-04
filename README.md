@@ -9,7 +9,7 @@
 ***License / Access***
 ======================
 
-This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rendered in [`LICENSE.txt`](./LICENSE.txt).  
+This work is made freely available under your choice of the [*MIT-0*](./LICENSE.txt) license or [*CC0-1.0*][URL-CC0] public domain dedication.  
 Although attribution is not required, sharing when you've made something with my work is really cool 💖
 
 *No additional/conflicting permissions were present in this repository at the time of release.*
@@ -27,5 +27,6 @@ Although attribution is not required, sharing when you've made something with my
 
 
 [URL-MIT-0]: <https://opensource.org/license/mit-0/>
+[URL-CC0]: <https://creativecommons.org/publicdomain/zero/1.0/>
 
 [URL-Repository]: <https://gitlab.com/recursivenomad/picoprobe-candybar-interface/>
