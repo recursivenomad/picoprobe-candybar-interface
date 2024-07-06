@@ -169,7 +169,7 @@
 		(uuid "c7fd3d01-4bdf-4b4c-ad10-549e64f9db27")
 	)
 	(fp_text user "CLK"
-		(at 4.826 -0.381 90)
+		(at 4.953 -0.381 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "32acb268-c7d4-4c9b-903f-a25700b0e810")
@@ -194,7 +194,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -2.159 5.207 90)
+		(at -2.286 5.207 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "41ce1fd1-40dc-4a6b-b0f9-681736c9e197")
@@ -207,7 +207,7 @@
 		)
 	)
 	(fp_text user "IO"
-		(at -2.159 -0.381 90)
+		(at -2.286 -0.381 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "51ba19a4-3105-478b-a138-b9aa08029185")
@@ -220,7 +220,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at 4.826 5.207 90)
+		(at 4.953 5.207 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7751dc56-5595-4add-a4a2-36153b6e7dc1")
@@ -233,7 +233,7 @@
 		)
 	)
 	(fp_text user "RX"
-		(at -2.159 8.001 90)
+		(at -2.286 8.001 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a0aa7f53-fdbb-49f4-8954-871035d970fa")
@@ -245,7 +245,7 @@
 		)
 	)
 	(fp_text user "~{RST}"
-		(at 4.826 2.413 90)
+		(at 4.953 2.413 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e9ac6722-7504-48d8-baff-2af5bf1a0d80")
@@ -270,7 +270,7 @@
 		)
 	)
 	(fp_text user "TX"
-		(at 4.826 8.001 90)
+		(at 4.953 8.001 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fc92706d-bc4c-4f17-b0cf-65b0bc0754f4")
