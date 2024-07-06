@@ -6,7 +6,7 @@
 	(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, SWD, power, UART, https://gitlab.com/recursivenomad/picoprobe-candybar/")
 	(tags "SWD UART Picoprobe debug programming header pressfit press-fit")
 	(property "Reference" "REF**"
-		(at 1.27 13.335 0)
+		(at 6.35 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -19,7 +19,7 @@
 		)
 	)
 	(property "Value" "SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
-		(at 1.27 15.24 0)
+		(at -3.81 3.81 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
