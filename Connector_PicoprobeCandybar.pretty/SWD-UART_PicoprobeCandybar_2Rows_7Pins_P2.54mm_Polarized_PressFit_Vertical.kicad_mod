@@ -71,6 +71,28 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -1.27 -2.02)
+		(end 3.81 9.64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "41074db6-afde-426c-83f5-262fd1cfa12a")
+	)
+	(fp_rect
+		(start -1.77 -2.52)
+		(end 4.31 10.14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c7fd3d01-4bdf-4b4c-ad10-549e64f9db27")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 1.27 3.81 90)
 		(unlocked yes)
