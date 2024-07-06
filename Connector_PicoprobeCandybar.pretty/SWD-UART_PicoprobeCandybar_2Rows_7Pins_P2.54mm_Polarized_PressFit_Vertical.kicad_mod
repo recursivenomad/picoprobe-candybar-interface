@@ -72,6 +72,17 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_rect
+		(start -1.38 -1.38)
+		(end 3.92 9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0003b2fe-9b83-4bd9-a7a1-ac8c778555a6")
+	)
+	(fp_rect
 		(start -1.27 -2.02)
 		(end 3.81 9.64)
 		(stroke
