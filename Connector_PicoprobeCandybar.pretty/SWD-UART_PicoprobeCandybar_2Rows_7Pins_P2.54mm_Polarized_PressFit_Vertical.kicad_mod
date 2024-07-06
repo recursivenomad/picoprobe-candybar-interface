@@ -282,6 +282,18 @@
 			)
 		)
 	)
+	(fp_text user "Debug Cable"
+		(at 10.39 3.81 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "4a944324-880e-4170-b2d9-0e867c584bbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 1.27 3.81 90)
 		(unlocked yes)
@@ -350,5 +362,34 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "862cd2cb-8523-4d8e-b2ce-04d415830adf")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.CrtYd")
+		(uuid "5d188f94-88a7-4d54-9fcb-61cac3ff100f")
+		(name "Debug Cable")
+		(hatch edge 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 4.31 -1.77) (xy 16.47 -1.77) (xy 16.47 9.39) (xy 4.31 9.39)
+			)
+		)
 	)
 )
