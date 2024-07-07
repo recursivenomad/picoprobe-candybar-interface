@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SWD-UART_PicoprobeCandybar"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://gitlab.com/recursivenomad/picoprobe-candybar/"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, SWD, power, UART, ARM, Cortex"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SWD UART Picoprobe Candybar ARM Cortex debug programming header"
 			(at 0 0 0)
 			(effects
 				(font
