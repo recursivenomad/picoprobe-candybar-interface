@@ -1,0 +1,406 @@
+(footprint "SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, SWD, power, UART, https://gitlab.com/recursivenomad/picoprobe-candybar/")
+	(tags "SWD UART Picoprobe debug programming header pressfit press-fit")
+	(property "Reference" "REF**"
+		(at -1.27 -3.175 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66d94bdd-3dc6-484e-a8d2-fc64d4082eee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
+		(at -3.81 3.81 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a16a6990-059a-418c-b3cf-e8392cbf35a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cc4054a-2662-49dc-8eba-96dfc2b2111b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03ffa364-5049-443e-85ae-9bdea09784b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbfc8b32-1528-42bf-98e5-920aad84a0d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.254 -2.794)
+		(end 2.794 -2.794)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99aa1cb3-bafa-43a3-8c28-a5c4937611a7")
+	)
+	(fp_line
+		(start 3.175 10.414)
+		(end -0.508 10.414)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b80be4f-8a63-4dc6-a6e0-f03c6259cf94")
+	)
+	(fp_rect
+		(start -1.38 -2.794)
+		(end -0.254 -1.38)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "68233277-16ae-4824-bdc5-c07e336142b2")
+	)
+	(fp_rect
+		(start -1.38 -1.38)
+		(end 3.92 9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0003b2fe-9b83-4bd9-a7a1-ac8c778555a6")
+	)
+	(fp_rect
+		(start -1.38 9)
+		(end -0.508 10.414)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5587ada2-4a25-4431-98dd-f91064b0c265")
+	)
+	(fp_rect
+		(start 2.794 -2.794)
+		(end 3.92 -1.38)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d2d5970d-067f-4da5-a8b9-459662c4d79c")
+	)
+	(fp_rect
+		(start 3.175 9)
+		(end 3.92 10.414)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1b0be10f-e6a3-42f1-b767-59ca4e2942df")
+	)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 3.81 8.89)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "41074db6-afde-426c-83f5-262fd1cfa12a")
+	)
+	(fp_rect
+		(start -1.77 -3.18)
+		(end 4.31 10.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c7fd3d01-4bdf-4b4c-ad10-549e64f9db27")
+	)
+	(fp_text user "CLK"
+		(at 4.953 -0.381 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32acb268-c7d4-4c9b-903f-a25700b0e810")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "SWD"
+		(at 1.27 -2.159 180)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "3c144ed3-a3d8-4517-a3bf-d89318270279")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -2.286 5.207 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "41ce1fd1-40dc-4a6b-b0f9-681736c9e197")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "IO"
+		(at -2.286 -0.381 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "51ba19a4-3105-478b-a138-b9aa08029185")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at 4.953 5.207 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7751dc56-5595-4add-a4a2-36153b6e7dc1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "RX"
+		(at -2.286 8.001 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a0aa7f53-fdbb-49f4-8954-871035d970fa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "~{RST}"
+		(at 4.953 2.413 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e9ac6722-7504-48d8-baff-2af5bf1a0d80")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "UART"
+		(at 1.27 9.779 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "f3d2a2f7-8f2a-47cc-b955-a43d25bcfb28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "TX"
+		(at 4.953 8.001 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fc92706d-bc4c-4f17-b0cf-65b0bc0754f4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "Debug Cable"
+		(at 10.39 3.81 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "4a944324-880e-4170-b2d9-0e867c584bbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 3.81 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c06820f6-f013-44f9-8a74-a9d79c3d68e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -0.254)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6d33a91-f3de-4a55-84ad-9e28dc5c4cc0")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -0.254)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a88630a-c161-481a-93a2-6c6aa7b25de4")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 2.794)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26e1d2ed-9dc4-4b2f-a763-2206b558fb57")
+	)
+	(pad "5" thru_hole circle
+		(at 0 4.826)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a79f2c0-9711-44d4-8ae3-df71cc4cde35")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 4.826)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4c4ba78c-72d2-44b1-aa3d-d4dad1e0eef8")
+	)
+	(pad "7" thru_hole circle
+		(at 0 7.874)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "110badda-e213-480c-9003-89986dad440c")
+	)
+	(pad "8" thru_hole circle
+		(at 2.54 7.874)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "862cd2cb-8523-4d8e-b2ce-04d415830adf")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.CrtYd")
+		(uuid "5d188f94-88a7-4d54-9fcb-61cac3ff100f")
+		(name "Debug Cable")
+		(hatch edge 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 4.31 -1.77) (xy 16.47 -1.77) (xy 16.47 9.39) (xy 4.31 9.39)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
