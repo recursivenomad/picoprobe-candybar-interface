@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, SWD, power, UART, https://gitlab.com/recursivenomad/picoprobe-candybar/")
-	(tags "SWD UART Picoprobe debug programming header pressfit press-fit")
+	(tags "SWD UART Picoprobe Candybar debug programming header pressfit press-fit")
 	(property "Reference" "REF**"
 		(at -1.27 -3.175 90)
 		(unlocked yes)
