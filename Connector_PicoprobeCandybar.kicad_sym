@@ -63,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*SWD*UART*PicoprobeCandybar*"
+		(property "ki_fp_filters" "*SWD*UART*PicoprobeCandybar*7Pins*"
 			(at 0 0 0)
 			(effects
 				(font
