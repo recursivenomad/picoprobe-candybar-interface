@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50,6 +50,15 @@
 			)
 		)
 		(property "ki_keywords" "SWD UART Picoprobe Candybar ARM Cortex debug programming header"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*SWD*UART*PicoprobeCandybar*"
 			(at 0 0 0)
 			(effects
 				(font
