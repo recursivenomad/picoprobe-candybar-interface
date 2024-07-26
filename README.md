@@ -9,6 +9,19 @@
 
 
 
+***Features***
+==============
+
+- Press-fit footprint using staggered-offset pads and no overhead cost
+- Convenient schematic pin alignment with [Ki-Lime Pi Pico][URL-Ki-Lime-Pi-Pico]
+
+&nbsp;
+
+
+
+
+
+
 ***How do I use this library?***
 ================================
 
@@ -74,3 +87,4 @@ Although attribution is not required, sharing when you've made something with my
 [URL-Releases]: <https://gitlab.com/recursivenomad/picoprobe-candybar-interface/-/releases/>
 
 [URL-Candybar]: <https://gitlab.com/recursivenomad/picoprobe-candybar/>
+[URL-Ki-Lime-Pi-Pico]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>
