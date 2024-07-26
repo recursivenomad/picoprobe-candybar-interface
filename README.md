@@ -1,5 +1,5 @@
-**A no-cost press-fit interface for the [Picoprobe Candybar][URL-Repository]** 🍫
-=================================================================================
+**A no-cost press-fit interface for the [Picoprobe Candybar][URL-Candybar]** 🍫
+===============================================================================
 
 
 [![](../../../gitlab-redirect/raw/main/redirect.png)][URL-Repository]
@@ -66,3 +66,5 @@ Although attribution is not required, sharing when you've made something with my
 
 [URL-Repository]: <https://gitlab.com/recursivenomad/picoprobe-candybar-interface/>
 [URL-Releases]: <https://gitlab.com/recursivenomad/picoprobe-candybar-interface/-/releases/>
+
+[URL-Candybar]: <https://gitlab.com/recursivenomad/picoprobe-candybar/>
