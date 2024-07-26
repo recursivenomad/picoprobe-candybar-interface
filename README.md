@@ -12,7 +12,7 @@
 ***Features***
 ==============
 
-- Press-fit footprint using staggered-offset pads and no overhead cost
+- Press-fit footprint using staggered-offset pads at no overhead cost
 - Convenient schematic pin alignment with [Ki-Lime Pi Pico][URL-Ki-Lime-Pi-Pico]
 
 &nbsp;
@@ -28,7 +28,7 @@
 *These instructions assume a library directory of `./pcb/project-libraries/`*
 
 - Ensure you are running KiCad 8.0 or later
-- Download the latest [release][URL-Releases]
+- Download the latest [release][URL-Releases] and extract it to `./pcb/project-libraries/picoprobe-candybar-interface/`
   > <details> <summary> To instead import as a git submodule... </summary>
   >
   > ```bash
