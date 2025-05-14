@@ -1,9 +1,9 @@
-(footprint "SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
+(footprint "SWD-UART_PicoprobeCandybar_PressFit"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, providing SWD, power, UART, https://gitlab.com/recursivenomad/picoprobe-candybar/")
+	(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, providing SWD, power, and UART, https://gitlab.com/recursivenomad/picoprobe-candybar/")
 	(tags "ARM Cortex pressfit programming header")
 	(property "Reference" "REF**"
 		(at -2.54 -6.985 90)
@@ -18,7 +18,7 @@
 			(justify left top)
 		)
 	)
-	(property "Value" "SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
+	(property "Value" "SWD-UART_PicoprobeCandybar_PressFit"
 		(at -5.08 0 90)
 		(unlocked yes)
 		(layer "F.Fab")

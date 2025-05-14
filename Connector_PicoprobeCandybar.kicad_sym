@@ -27,7 +27,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
+		(property "Footprint" "SWD-UART_PicoprobeCandybar_PressFit"
 			(at 0 -24.13 0)
 			(effects
 				(font
@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, providing SWD, power, UART"
+		(property "Description" "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, providing SWD, power, and UART"
 			(at 0 -29.21 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*SWD*UART*PicoprobeCandybar*7Pins*"
+		(property "ki_fp_filters" "*SWD*UART*PicoprobeCandybar*"
 			(at 0 0 0)
 			(effects
 				(font
