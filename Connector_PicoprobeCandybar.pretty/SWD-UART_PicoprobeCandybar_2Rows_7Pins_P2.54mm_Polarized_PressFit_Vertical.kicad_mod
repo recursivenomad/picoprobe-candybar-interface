@@ -71,40 +71,9 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -1.524 -6.604)
-		(end 1.524 -6.604)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "99aa1cb3-bafa-43a3-8c28-a5c4937611a7")
-	)
-	(fp_line
-		(start 1.905 6.604)
-		(end -1.778 6.604)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "5b80be4f-8a63-4dc6-a6e0-f03c6259cf94")
-	)
 	(fp_rect
 		(start -2.65 -6.604)
-		(end -1.524 -5.19)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "68233277-16ae-4824-bdc5-c07e336142b2")
-	)
-	(fp_rect
-		(start -2.65 -5.19)
-		(end 2.65 5.19)
+		(end 2.65 6.604)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -113,38 +82,31 @@
 		(layer "F.SilkS")
 		(uuid "0003b2fe-9b83-4bd9-a7a1-ac8c778555a6")
 	)
-	(fp_rect
-		(start -2.65 5.19)
-		(end -1.778 6.604)
+	(fp_poly
+		(pts
+			(xy -2.65 -6.604) (xy -1.544 -6.6) (xy -1.544 -5.171) (xy 1.544 -5.171) (xy 1.544 -6.604) (xy 2.65 -6.604)
+			(xy 2.65 -5.13) (xy -2.65 -5.13)
+		)
 		(stroke
-			(width 0.12)
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "5587ada2-4a25-4431-98dd-f91064b0c265")
+		(uuid "4669fccf-3ce8-4baf-be17-3436cb6b1a3f")
 	)
-	(fp_rect
-		(start 1.524 -6.604)
-		(end 2.65 -5.19)
+	(fp_poly
+		(pts
+			(xy 2.65 6.604) (xy 1.923 6.6) (xy 1.923 5.171) (xy -1.782 5.171) (xy -1.782 6.604) (xy -2.65 6.604)
+			(xy -2.65 5.13) (xy 2.65 5.13)
+		)
 		(stroke
-			(width 0.12)
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "d2d5970d-067f-4da5-a8b9-459662c4d79c")
-	)
-	(fp_rect
-		(start 1.905 5.19)
-		(end 2.65 6.604)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "1b0be10f-e6a3-42f1-b767-59ca4e2942df")
+		(uuid "695dde2e-27da-44d0-8776-a042e5eae4de")
 	)
 	(fp_rect
 		(start -2.54 -5.08)
@@ -182,7 +144,7 @@
 		)
 	)
 	(fp_text user "SWD"
-		(at 0 -5.969 180)
+		(at 0 -5.903 180)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
 		(uuid "3c144ed3-a3d8-4517-a3bf-d89318270279")
@@ -258,7 +220,7 @@
 		)
 	)
 	(fp_text user "UART"
-		(at 0 5.969 0)
+		(at 0 5.903 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
 		(uuid "f3d2a2f7-8f2a-47cc-b955-a43d25bcfb28")
