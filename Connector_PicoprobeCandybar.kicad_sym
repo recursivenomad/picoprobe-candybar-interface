@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, SWD, power, UART, ARM, Cortex"
+		(property "Description" "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, providing SWD, power, UART"
 			(at 0 -29.21 0)
 			(effects
 				(font
@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "SWD UART Picoprobe Candybar ARM Cortex debug programming header"
+		(property "ki_keywords" "ARM Cortex pressfit programming header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -173,10 +173,29 @@
 			)
 		)
 		(symbol "SWD-UART_PicoprobeCandybar_1_0"
-			(pin open_collector line
-				(at 10.16 -7.62 180)
+			(pin power_in line
+				(at -5.08 -12.7 90)
 				(length 2.54)
-				(name "~{RESET}"
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GND_OUT" power_out line)
+			)
+			(pin power_out line
+				(at -5.08 12.7 270)
+				(length 2.54)
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -191,29 +210,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -5.08 -12.7 90)
+			(pin open_collector line
+				(at 10.16 -7.62 180)
 				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "GND_OUT" power_out line)
-			)
-			(pin power_out line
-				(at -5.08 12.7 270)
-				(length 2.54)
-				(name "VCC"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.27 1.27)

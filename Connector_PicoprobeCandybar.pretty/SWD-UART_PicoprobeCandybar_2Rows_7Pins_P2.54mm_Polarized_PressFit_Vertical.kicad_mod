@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, SWD, power, UART, https://gitlab.com/recursivenomad/picoprobe-candybar/")
-	(tags "SWD UART Picoprobe Candybar debug programming header pressfit press-fit")
+	(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, providing SWD, power, UART, https://gitlab.com/recursivenomad/picoprobe-candybar/")
+	(tags "ARM Cortex pressfit programming header")
 	(property "Reference" "REF**"
 		(at -1.27 -3.175 90)
 		(unlocked yes)
@@ -194,7 +194,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -2.286 5.207 90)
+		(at -2.286 2.413 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "41ce1fd1-40dc-4a6b-b0f9-681736c9e197")
@@ -220,7 +220,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at 4.953 5.207 90)
+		(at 4.953 2.413 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7751dc56-5595-4add-a4a2-36153b6e7dc1")
@@ -245,7 +245,7 @@
 		)
 	)
 	(fp_text user "~{RST}"
-		(at 4.953 2.413 90)
+		(at 4.953 5.207 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e9ac6722-7504-48d8-baff-2af5bf1a0d80")
@@ -323,6 +323,14 @@
 		(remove_unused_layers no)
 		(uuid "8a88630a-c161-481a-93a2-6c6aa7b25de4")
 	)
+	(pad "3" thru_hole circle
+		(at 0 2.794)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a79f2c0-9711-44d4-8ae3-df71cc4cde35")
+	)
 	(pad "4" thru_hole circle
 		(at 2.54 2.794)
 		(size 1.778 1.778)
@@ -330,14 +338,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "26e1d2ed-9dc4-4b2f-a763-2206b558fb57")
-	)
-	(pad "5" thru_hole circle
-		(at 0 4.826)
-		(size 1.778 1.778)
-		(drill 1.245)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "7a79f2c0-9711-44d4-8ae3-df71cc4cde35")
 	)
 	(pad "6" thru_hole circle
 		(at 2.54 4.826)
