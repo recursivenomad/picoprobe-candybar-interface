@@ -1,0 +1,321 @@
+(footprint "SWD_PicoprobeCandybar_PressFit_Compact"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, providing SWD and power, https://gitlab.com/recursivenomad/picoprobe-candybar/")
+	(tags "ARM Cortex pressfit programming header")
+	(property "Reference" "REF**"
+		(at -2.54 -2.794 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66d94bdd-3dc6-484e-a8d2-fc64d4082eee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "SWD_PicoprobeCandybar_PressFit_Compact"
+		(at -5.08 2.54 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a16a6990-059a-418c-b3cf-e8392cbf35a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -1.27 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cc4054a-2662-49dc-8eba-96dfc2b2111b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.27 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03ffa364-5049-443e-85ae-9bdea09784b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.27 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbfc8b32-1528-42bf-98e5-920aad84a0d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.65 -2.65)
+		(end 2.65 -2.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "592f8098-07ff-439c-91ce-6cf1ae0c5aec")
+	)
+	(fp_line
+		(start -2.65 2.65)
+		(end -2.65 -2.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77288b2c-12db-4073-9060-9cbb266451db")
+	)
+	(fp_line
+		(start -2.65 2.65)
+		(end 2.65 2.65)
+		(stroke
+			(width 0.12)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "fb7bf6b7-6b18-4ed4-a564-e4883e07da28")
+	)
+	(fp_line
+		(start -2.3495 2.38125)
+		(end -2.3495 1.93675)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b5ae002-4680-4279-a279-d1d27b7c2cbf")
+	)
+	(fp_line
+		(start -0.127 2.159)
+		(end 0.3175 2.159)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09bdf3d3-b88b-4104-8091-98dc7078d272")
+	)
+	(fp_line
+		(start 0.09525 2.38125)
+		(end 0.09525 1.93675)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e25ee78f-7d87-4d87-9732-20687b5b3cd3")
+	)
+	(fp_line
+		(start 2.65 -2.286)
+		(end 2.65 -1.524)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "165f5c08-3277-4add-9707-fc3a8d1502f9")
+	)
+	(fp_line
+		(start 2.65 -1.016)
+		(end 2.65 -0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8a5ef87-4098-433b-9344-08bf3b7066b2")
+	)
+	(fp_line
+		(start 2.65 0.254)
+		(end 2.65 1.016)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "120f1053-8d65-4aec-88bf-6cd79608041e")
+	)
+	(fp_line
+		(start 2.65 1.524)
+		(end 2.65 2.286)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1812b95-dbf4-4018-90c3-7e80b0aa4935")
+	)
+	(fp_rect
+		(start -2.54 -2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "41074db6-afde-426c-83f5-262fd1cfa12a")
+	)
+	(fp_rect
+		(start -2.79 -2.79)
+		(end 2.79 2.79)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fa52fb47-7bc4-4365-9c21-b3abf855f02e")
+	)
+	(fp_text user "CLK"
+		(at 1.27 0 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7d21c99f-60b1-40e6-ab5f-70a4e1ecb186")
+		(effects
+			(font
+				(size 0.6 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "IO"
+		(at -1.27 0 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ff7ed483-ee60-47fc-9747-2a15775211f2")
+		(effects
+			(font
+				(size 0.6 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "Debug Cable"
+		(at 9.12 2.54 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "4a944324-880e-4170-b2d9-0e867c584bbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c06820f6-f013-44f9-8a74-a9d79c3d68e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 -1.524)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6d33a91-f3de-4a55-84ad-9e28dc5c4cc0")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 -1.524)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a88630a-c161-481a-93a2-6c6aa7b25de4")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 1.524)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a79f2c0-9711-44d4-8ae3-df71cc4cde35")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 1.524)
+		(size 1.778 1.778)
+		(drill 1.245)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26e1d2ed-9dc4-4b2f-a763-2206b558fb57")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.CrtYd")
+		(uuid "5d188f94-88a7-4d54-9fcb-61cac3ff100f")
+		(name "Debug Cable")
+		(hatch edge 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 3.048 9.525) (xy -3.04 9.53) (xy -3.04 -4.45) (xy 3.04 -4.45) (xy 3.048 -3.048) (xy 15.2 -3.04)
+				(xy 15.2 8.12) (xy 3.04 8.12)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x02_P2.54mm_Vertical.wrl"
+		(hide yes)
+		(offset
+			(xyz -1.27 1.27 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
