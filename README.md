@@ -12,10 +12,10 @@
 ***Features***
 ==============
 
-- Press-fit footprint using staggered-offset pads at no overhead cost
-- Keyed footprint to prevent polarity mismatch
-- Reverse-polarity safe (no out-of-spec connections even if connector polarity is somehow reversed)
-- Alternative compact footprints for dense designs
+- Press-fit footprints using staggered-offset pads at no overhead cost
+- Keyed footprints to prevent polarity mismatch
+  - Reverse-polarity safe (no out-of-spec connections even if connector polarity is somehow reversed)
+- Alternative compact footprints for dense designs (including unsafe non-polarized footprints for maximal density)
 
 &nbsp;
 
