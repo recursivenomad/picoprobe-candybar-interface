@@ -486,8 +486,8 @@
 		(uuid "41074db6-afde-426c-83f5-262fd1cfa12a")
 	)
 	(fp_rect
-		(start -2.79 -5.33)
-		(end 2.79 5.33)
+		(start -3.04 -5.58)
+		(end 3.04 5.58)
 		(stroke
 			(width 0.05)
 			(type default)

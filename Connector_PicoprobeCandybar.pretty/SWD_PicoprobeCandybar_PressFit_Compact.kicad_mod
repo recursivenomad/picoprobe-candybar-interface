@@ -287,8 +287,8 @@
 		(uuid "41074db6-afde-426c-83f5-262fd1cfa12a")
 	)
 	(fp_rect
-		(start -2.79 -2.79)
-		(end 2.79 2.79)
+		(start -3.04 -3.04)
+		(end 3.04 3.04)
 		(stroke
 			(width 0.05)
 			(type default)
