@@ -397,4 +397,16 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "../Connector_PicoprobeCandybar.3dshapes/IDSD-04-D-XX.XX.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 -2.54 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -474,10 +474,22 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.wrl"
+	(model "../Connector_PicoprobeCandybar.3dshapes/PinHeader_2x04_P2.54mm_Vertical_Pin5Removed.wrl"
 		(hide yes)
 		(offset
-			(xyz -1.27 3.81 0)
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "../Connector_PicoprobeCandybar.3dshapes/IDSD-04-D-XX.XX.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
