@@ -12,8 +12,10 @@
 ***Features***
 ==============
 
-- Press-fit footprint using staggered-offset pads at no overhead cost
-- Convenient schematic pin alignment with [Ki-Lime Pi Pico][URL-Ki-Lime-Pi-Pico]
+- Press-fit footprints using staggered-offset pads at no overhead cost
+- Keyed footprints to prevent polarity mismatch
+  - Reverse-polarity safe (no out-of-spec connections even if connector polarity is somehow reversed)
+- Alternative compact footprints for dense designs (including unsafe non-polarized footprints for maximal density)
 
 &nbsp;
 
@@ -32,7 +34,7 @@
   > <details> <summary> To instead import as a git submodule... </summary>
   >
   > ```bash
-  > mkdir -p pcb/project-libraries/ && cd $_
+  > mkdir -p ./pcb/project-libraries/ && cd $_
   > git submodule add ../../recursivenomad/picoprobe-candybar-interface.git
   > cd ../..
   > ```
